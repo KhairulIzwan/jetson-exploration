@@ -25,23 +25,24 @@ models.*
 *power as a full scale deep learning rig would.*
 
 ### Pre-trained Image Classifiers with Jetson Nano
-The Jetson Nano can work with models built with other deep learning frameworks such as
-mxnet, PyTorch, and Caffe, but models must be optimized with a tool known as TensorRT
-(TRT).
+- The Jetson Nano can work with models built with other deep learning frameworks
+such as mxnet, PyTorch, and Caffe, but models must be optimized with a tool 
+known as TensorRT (TRT).
 
-![TENSORRT]()
+![TENSORRT](https://github.com/KhairulIzwan/jetson-exploration/blob/main/img/TensorRT.png)
 
 #### TensoRT
-TensorRT is a framework developed by NVIDIA to optimize deep learning models for NVIDIA
-devices.
-Optimized models will run faster and more efficiently on these devices.
-TensorRT optimizes a model from the following perspectives [67]:
-• Eliminates unused layers
-• Combines and merge layers including convolution, bias, and ReLU
-• Combines operations with the same source tensor and similar parameters
-• Eliminates no-op equivalent operations
-• Tunes and calibrates weights
-	
+- TensorRT is a framework developed by NVIDIA to optimize deep learning models
+for NVIDIA devices.
+- Optimized models will run faster and more efficiently on these devices.
+TensorRT optimizes a model from the following perspectives:
+- Eliminates unused layers
+- Combines and merge layers including convolution, bias, and ReLU
+- Combines operations with the same source tensor and similar parameters
+- Eliminates no-op equivalent operations
+- Tunes and calibrates weights
+
+![TENSORRT](https://github.com/KhairulIzwan/jetson-exploration/blob/main/img/KerasToTRT.png)
 
 ## References
 1. [Remote Access to Jetson Nano](https://forums.developer.nvidia.com/t/remote-access-to-jetson-nano/74142)
