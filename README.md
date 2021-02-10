@@ -58,7 +58,7 @@ model. For more refer [TensorRT-Developer-Guide](https://docs.nvidia.com/deeplea
 1. Converting a Keras/TensorFlow model to TRT graph
 - Convert h5 file to pb file
 
-2. Performing Inference using the TRT Graph**
+2. Performing Inference using the TRT Graph
 
 **Improving Jetson Classification Speed By Multiple Orders of Magnitude**
 - Allowed much time to warm up
