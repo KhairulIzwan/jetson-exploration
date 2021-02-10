@@ -52,15 +52,16 @@ Keras models cannot be used directly with TensorRT. First the model must be
 converted into a Frozen Graph. At that point we can use TensorRT to optimize the
 model. For more refer [TensorRT-Developer-Guide](https://docs.nvidia.com/deeplearning/tensorrt/developer-guide/index.html)
 
-**Preparing Keras/TensorFlow Models for the Jetson Nano**
-- Download the h5 files
+##### Preparing Keras/TensorFlow Models for the Jetson Nano
+*. Required to download the h5 files
 
-**Converting a Keras/TensorFlow model to TRT graph**
+1. Converting a Keras/TensorFlow model to TRT graph
 - Convert h5 file to pb file
 
-**Performing Inference using the TRT Graph**
+2. Performing Inference using the TRT Graph**
 
 **Improving Jetson Classification Speed By Multiple Orders of Magnitude**
+- Allowed much time to warm up
 
 ## References
 1. [Remote Access to Jetson Nano](https://forums.developer.nvidia.com/t/remote-access-to-jetson-nano/74142)
@@ -68,6 +69,7 @@ model. For more refer [TensorRT-Developer-Guide](https://docs.nvidia.com/deeplea
 3. [Getting Started with the NVIDIA Jetson Nano Developer Kit](https://www.hackster.io/news/getting-started-with-the-nvidia-jetson-nano-developer-kit-43aa7c298797)
 4. [How to Use SCP Command to Securely Transfer Files](https://linuxize.com/post/how-to-use-scp-command-to-securely-transfer-files/)
 5. [Running samples on the jetson nano](https://forums.developer.nvidia.com/t/running-samples-on-the-jetson-nano/73461)
+6. [Official TensorFlow for Jetson Nano!](https://forums.developer.nvidia.com/t/official-tensorflow-for-jetson-nano/71770)
 
 **Not Working**
 
