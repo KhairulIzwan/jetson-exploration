@@ -3,13 +3,17 @@
 # 	--trt-graph model/ssd_mobilenet_v1_coco_trt.pb
 
 # import the necessary packages
+import tensorflow.contrib.tensorrt as trt
+import tensorflow as tf
+import argparse
+import os
 from tf_trt_models.detection import download_detection_model
 from tf_trt_models.detection import build_detection_graph
 from tensorflow.python.util import deprecation
 #import tensorflow.contrib.tensorrt as trt
-import tensorflow as tf
-import argparse
-import os
+#import tensorflow as tf
+#import argparse
+#import os
 
 ### turn off the deprecation warnings and logs to keep
 ### the console clean for convenience
