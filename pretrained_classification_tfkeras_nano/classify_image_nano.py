@@ -13,9 +13,9 @@ import cv2
 
 def loadTRTGraph(graphFile):
 	# open the graph file
-	with tf.gfile.GFile(graphFile, "rb") as f:
+	with tf.io.gfile.GFile(graphFile, "rb") as f:
 		# instantiate the GraphDef class and read the graph
-		graphDef = tf.GraphDef()
+		graphDef = tf.compat.v1.GraphDef()
 		graphDef.ParseFromString(f.read())
 
 	# return the graph    

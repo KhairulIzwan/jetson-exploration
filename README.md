@@ -52,7 +52,15 @@ Keras models cannot be used directly with TensorRT. First the model must be
 converted into a Frozen Graph. At that point we can use TensorRT to optimize the
 model. For more refer [TensorRT-Developer-Guide](https://docs.nvidia.com/deeplearning/tensorrt/developer-guide/index.html)
 
+**Preparing Keras/TensorFlow Models for the Jetson Nano**
+- Download the h5 files
 
+**Converting a Keras/TensorFlow model to TRT graph**
+- Convert h5 file to pb file
+
+**Performing Inference using the TRT Graph**
+
+**Improving Jetson Classification Speed By Multiple Orders of Magnitude**
 
 ## References
 1. [Remote Access to Jetson Nano](https://forums.developer.nvidia.com/t/remote-access-to-jetson-nano/74142)
