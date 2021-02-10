@@ -33,7 +33,7 @@ known as TensorRT (TRT).
 
 ![KERASTOTENSORRT](https://github.com/KhairulIzwan/jetson-exploration/blob/main/img/KerasToTRT.png)
 
-#### TensoRT
+### TensoRT
 - TensorRT is a framework developed by NVIDIA to optimize deep learning models
 for NVIDIA devices.
 - Optimized models will run faster and more efficiently on these devices.
@@ -52,7 +52,7 @@ Keras models cannot be used directly with TensorRT. First the model must be
 converted into a Frozen Graph. At that point we can use TensorRT to optimize the
 model. For more refer [TensorRT-Developer-Guide](https://docs.nvidia.com/deeplearning/tensorrt/developer-guide/index.html)
 
-##### Preparing Keras/TensorFlow Models for the Jetson Nano
+### Preparing Keras/TensorFlow Models for the Jetson Nano
 *. Required to download the h5 files
 
 1. Converting a Keras/TensorFlow model to TRT graph
@@ -63,7 +63,7 @@ model. For more refer [TensorRT-Developer-Guide](https://docs.nvidia.com/deeplea
 **Improving Jetson Classification Speed By Multiple Orders of Magnitude**
 - Allowed much time to warm up
 
-## References
+### References
 1. [Remote Access to Jetson Nano](https://forums.developer.nvidia.com/t/remote-access-to-jetson-nano/74142)
 2. [Jetson Nano -Remote VNC Access](https://medium.com/@bharathsudharsan023/jetson-nano-remote-vnc-access-d1e71c82492b)
 3. [Getting Started with the NVIDIA Jetson Nano Developer Kit](https://www.hackster.io/news/getting-started-with-the-nvidia-jetson-nano-developer-kit-43aa7c298797)
