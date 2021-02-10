@@ -63,6 +63,12 @@ image = cv2.resize(image, (224, 224))
 image = np.expand_dims(image, axis=0)
 image = preprocess_input(image)
 
+# run inference for 1000 times to warm up the nano
+print("[INFO] warming up the nano...")
+for _ in range(1000):
+	_ = tfSess.run(outputTensor, 
+		feed_dict={inputTensorName: image})
+
 # pass the image through the TensorFlow session to 
 # obtain our predictions
 start = time.time()
