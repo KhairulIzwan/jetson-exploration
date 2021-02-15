@@ -70,6 +70,7 @@ model. For more refer [TensorRT-Developer-Guide](https://docs.nvidia.com/deeplea
 4. [How to Use SCP Command to Securely Transfer Files](https://linuxize.com/post/how-to-use-scp-command-to-securely-transfer-files/)
 5. [Running samples on the jetson nano](https://forums.developer.nvidia.com/t/running-samples-on-the-jetson-nano/73461)
 6. [Official TensorFlow for Jetson Nano!](https://forums.developer.nvidia.com/t/official-tensorflow-for-jetson-nano/71770)
+7. [problem with installing ONNX on jetson nano](https://forums.developer.nvidia.com/t/problem-with-installing-onnx-on-jetson-nano/110820/3)
 
 **Not Working**
 
